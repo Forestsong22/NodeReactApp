@@ -25,6 +25,9 @@ app.get('/', (req, res) => {
     res.send('차근차근 하자.. 지치지 말자 !!!');
 });
 
+app.get('/api/hello', (req, res) => {
+    res.send('AXIOS 확인하는중.. !!')
+});
 
 
 app.post('/api/users/register', (req, res) => {
