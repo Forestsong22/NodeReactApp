@@ -34,7 +34,7 @@ app.post('/api/users/register', (req, res) => {
     // 회원가입 할 떄 필요한 정보들을 client에서 가져오먄
     // 그 정보들을 데이터베이스에 넣어준다.
     const user = new User(req.body)
-    
+    ``
     // save는 몽고DB에서 오는 메서드이다.
     // user모델에 정보가 저장된다.
     // 실패 시 실패한 정보를 보내준다.
